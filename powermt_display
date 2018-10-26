@@ -1,0 +1,522 @@
+Pseudo name=disk23
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF22009E0D097848CDE811 [LUN 74]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   0 0/0/12/1/0.0x5006016339a04ed6.0x1000000000000 c8t15d1     SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x1000000000000 c9t15d1     SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x1000000000000 c14t15d1    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x1000000000000 c16t15d1    SP B1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x1000000000000 c11t15d1    SP B3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x1000000000000 c10t15d1    SP A3    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x1000000000000 c12t15d1    SP A1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016939a04ed6.0x1000000000000 c13t15d1    SP B1    active   alive      0      0
+
+Pseudo name=disk35
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF22000F7E450C7E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x3000000000000 c13t15d3    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x3000000000000 c12t15d3    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x3000000000000 c10t15d3    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x3000000000000 c11t15d3    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x3000000000000 c14t15d3    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x3000000000000 c16t15d3    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x3000000000000 c9t15d3     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x3000000000000 c8t15d3     SP A3    active   alive      0      0
+
+Pseudo name=disk36
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF22000E7E450C7E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x2000000000000 c13t15d2    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x2000000000000 c12t15d2    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x2000000000000 c10t15d2    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x2000000000000 c11t15d2    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x2000000000000 c14t15d2    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x2000000000000 c16t15d2    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x2000000000000 c9t15d2     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x2000000000000 c8t15d2     SP A3    active   alive      0      0
+
+Pseudo name=disk37
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF2200107E450C7E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x4000000000000 c13t15d4    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x4000000000000 c12t15d4    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x4000000000000 c10t15d4    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x4000000000000 c11t15d4    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x4000000000000 c14t15d4    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x4000000000000 c16t15d4    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x4000000000000 c9t15d4     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x4000000000000 c8t15d4     SP A3    active   alive      0      0
+
+Pseudo name=disk38
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF220055EFB5397E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x5000000000000 c13t15d5    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x5000000000000 c12t15d5    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x5000000000000 c10t15d5    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x5000000000000 c11t15d5    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x5000000000000 c14t15d5    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x5000000000000 c16t15d5    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x5000000000000 c9t15d5     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x5000000000000 c8t15d5     SP A3    active   alive      0      0
+
+Pseudo name=disk39
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF220054EFB5397E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x6000000000000 c13t15d6    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x6000000000000 c12t15d6    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x6000000000000 c10t15d6    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x6000000000000 c11t15d6    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x6000000000000 c14t15d6    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x6000000000000 c16t15d6    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x6000000000000 c9t15d6     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x6000000000000 c8t15d6     SP A3    active   alive      0      0
+
+Pseudo name=disk40
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF220056EFB5397E75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x7000000000000 c13t15d7    SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x7000000000000 c12t15d7    SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x7000000000000 c10t15d7    SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x7000000000000 c11t15d7    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x7000000000000 c14t15d7    SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x7000000000000 c16t15d7    SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x7000000000000 c9t15d7     SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x7000000000000 c8t15d7     SP A3    active   alive      0      0
+
+Pseudo name=disk41
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF220066071A218175E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0x8000000000000 lunpath8089 SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0x8000000000000 lunpath8153 SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0x8000000000000 lunpath8018 SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0x8000000000000 lunpath7947 SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0x8000000000000 lunpath7883 SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0x8000000000000 lunpath7939 SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0x8000000000000 lunpath7661 SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0x8000000000000 lunpath7740 SP A3    active   alive      0      0
+
+Pseudo name=disk42
+CLARiiON ID=CK200083701321 [s-test-1]
+Logical device ID=600601604AFF220092B79B6F7F75E611 []
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 1
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   3 1/0/14/1/0.0x5006016939a04ed6.0xa000000000000 lunpath8091 SP B1    active   alive      0      0
+   3 1/0/14/1/0.0x5006016139a04ed6.0xa000000000000 lunpath8205 SP A1    active   alive      0      0
+   2 1/0/12/1/0.0x5006016339a04ed6.0xa000000000000 lunpath8020 SP A3    active   alive      0      0
+   2 1/0/12/1/0.0x5006016b39a04ed6.0xa000000000000 lunpath7948 SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016139a04ed6.0xa000000000000 lunpath7880 SP A1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016939a04ed6.0xa000000000000 lunpath7933 SP B1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016b39a04ed6.0xa000000000000 lunpath7663 SP B3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016339a04ed6.0xa000000000000 lunpath7722 SP A3    active   alive      0      0
+
+Pseudo name=disk339
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031002652F22FF67CE311 [srm-sb_17]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4002000000000000 c135t0d2    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4002000000000000 c133t0d2    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4002000000000000 c131t0d2    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4002000000000000 c129t0d2    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4002000000000000 c130t0d2    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4002000000000000 c134t0d2    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4002000000000000 c136t0d2    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4002000000000000 c132t0d2    SP A0    active   alive      0      0
+
+Pseudo name=disk342
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031002752F22FF67CE311 [srm-sb_18]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4003000000000000 c135t0d3    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4003000000000000 c133t0d3    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4003000000000000 c131t0d3    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4003000000000000 c129t0d3    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4003000000000000 c130t0d3    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4003000000000000 c134t0d3    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4003000000000000 c136t0d3    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4003000000000000 c132t0d3    SP A0    active   alive      0      0
+
+Pseudo name=disk343
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100908F2EDDF67CE311 [srm-sb_19]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4004000000000000 c135t0d4    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4004000000000000 c133t0d4    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4004000000000000 c129t0d4    SP A2    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4004000000000000 c131t0d4    SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4004000000000000 c130t0d4    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4004000000000000 c134t0d4    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4004000000000000 c136t0d4    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4004000000000000 c132t0d4    SP A0    active   alive      0      0
+
+Pseudo name=disk346
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100BC434B0DF77CE311 [srm-sb_23]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4008000000000000 c135t1d0    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4008000000000000 c133t1d0    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4008000000000000 c129t1d0    SP A2    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4008000000000000 c131t1d0    SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4008000000000000 c134t1d0    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4008000000000000 c130t1d0    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4008000000000000 c136t1d0    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4008000000000000 c132t1d0    SP A0    active   alive      0      0
+
+Pseudo name=disk347
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100BD434B0DF77CE311 [srm-sb_24]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4009000000000000 c135t1d1    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4009000000000000 c133t1d1    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4009000000000000 c131t1d1    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4009000000000000 c129t1d1    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4009000000000000 c134t1d1    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4009000000000000 c130t1d1    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4009000000000000 c136t1d1    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4009000000000000 c132t1d1    SP A0    active   alive      0      0
+
+Pseudo name=disk350
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031005054403CF77CE311 [srm-sb_27]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400c000000000000 c135t1d4    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400c000000000000 c133t1d4    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400c000000000000 c129t1d4    SP A2    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400c000000000000 c131t1d4    SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400c000000000000 c134t1d4    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400c000000000000 c130t1d4    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400c000000000000 c136t1d4    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400c000000000000 c132t1d4    SP A0    active   alive      0      0
+
+Pseudo name=disk351
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031004A7D13F6F67CE311 [srm-sb_21]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4006000000000000 c135t0d6    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4006000000000000 c131t0d6    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4006000000000000 c133t0d6    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4006000000000000 c129t0d6    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4006000000000000 c134t0d6    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4006000000000000 c130t0d6    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4006000000000000 c136t0d6    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4006000000000000 c132t0d6    SP A0    active   alive      0      0
+
+Pseudo name=disk354
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100A3B06C25F77CE311 [srm-sb_26]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400b000000000000 c135t1d3    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400b000000000000 c133t1d3    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400b000000000000 c131t1d3    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400b000000000000 c129t1d3    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400b000000000000 c130t1d3    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400b000000000000 c134t1d3    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400b000000000000 c136t1d3    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400b000000000000 c132t1d3    SP A0    active   alive      0      0
+
+Pseudo name=disk355
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031005F4B2D1EF67CE311 [srm-sb_16]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4001000000000000 c135t0d1    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4001000000000000 c131t0d1    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4001000000000000 c133t0d1    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4001000000000000 c129t0d1    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4001000000000000 c130t0d1    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4001000000000000 c134t0d1    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4001000000000000 c136t0d1    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4001000000000000 c132t0d1    SP A0    active   alive      0      0
+
+Pseudo name=disk357
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100918F2EDDF67CE311 [srm-sb_20]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4005000000000000 c135t0d5    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4005000000000000 c131t0d5    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4005000000000000 c133t0d5    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4005000000000000 c129t0d5    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4005000000000000 c130t0d5    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4005000000000000 c134t0d5    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4005000000000000 c136t0d5    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4005000000000000 c132t0d5    SP A0    active   alive      0      0
+
+Pseudo name=disk359
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031005154403CF77CE311 [srm-sb_28]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400d000000000000 c135t1d5    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400d000000000000 c133t1d5    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400d000000000000 c129t1d5    SP A2    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400d000000000000 c131t1d5    SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400d000000000000 c134t1d5    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400d000000000000 c130t1d5    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400d000000000000 c136t1d5    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400d000000000000 c132t1d5    SP A0    active   alive      0      0
+
+Pseudo name=disk361
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031004B7D13F6F67CE311 [srm-sb_22]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4007000000000000 c135t0d7    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4007000000000000 c131t0d7    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4007000000000000 c133t0d7    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4007000000000000 c129t0d7    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4007000000000000 c130t0d7    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4007000000000000 c134t0d7    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4007000000000000 c136t0d7    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4007000000000000 c132t0d7    SP A0    active   alive      0      0
+
+Pseudo name=disk363
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100A2B06C25F77CE311 [srm-sb_25]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400a000000000000 c135t1d2    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400a000000000000 c133t1d2    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400a000000000000 c131t1d2    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400a000000000000 c129t1d2    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400a000000000000 c134t1d2    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400a000000000000 c130t1d2    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400a000000000000 c136t1d2    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400a000000000000 c132t1d2    SP A0    active   alive      0      0
+
+Pseudo name=disk365
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100F680806FF77CE311 [srm-sb_31]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4010000000000000 c135t2d0    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4010000000000000 c133t2d0    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4010000000000000 c131t2d0    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4010000000000000 c129t2d0    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4010000000000000 c134t2d0    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4010000000000000 c130t2d0    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4010000000000000 c136t2d0    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4010000000000000 c132t2d0    SP A0    active   alive      0      0
+
+Pseudo name=disk367
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100F780806FF77CE311 [srm-sb_32]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP A, current=SP A	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4011000000000000 c135t2d1    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4011000000000000 c133t2d1    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4011000000000000 c131t2d1    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4011000000000000 c129t2d1    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4011000000000000 c134t2d1    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4011000000000000 c130t2d1    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4011000000000000 c136t2d1    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4011000000000000 c132t2d1    SP A0    active   alive      0      0
+
+Pseudo name=disk370
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=600601605450310038AC7E59F77CE311 [srm-sb_29]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400e000000000000 c135t1d6    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400e000000000000 c133t1d6    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400e000000000000 c129t1d6    SP A2    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400e000000000000 c131t1d6    SP A3    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400e000000000000 c130t1d6    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400e000000000000 c134t1d6    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400e000000000000 c136t1d6    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400e000000000000 c132t1d6    SP A0    active   alive      0      0
+
+Pseudo name=disk371
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=600601605450310039AC7E59F77CE311 [srm-sb_30]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x400f000000000000 c135t1d7    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x400f000000000000 c133t1d7    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x400f000000000000 c131t1d7    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x400f000000000000 c129t1d7    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x400f000000000000 c134t1d7    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x400f000000000000 c130t1d7    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x400f000000000000 c136t1d7    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x400f000000000000 c132t1d7    SP A0    active   alive      0      0
+
+Pseudo name=disk374
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100B21E2A85F77CE311 [srm-sb_33]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4012000000000000 c135t2d2    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4012000000000000 c133t2d2    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4012000000000000 c131t2d2    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4012000000000000 c129t2d2    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4012000000000000 c134t2d2    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4012000000000000 c130t2d2    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4012000000000000 c136t2d2    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4012000000000000 c132t2d2    SP A0    active   alive      0      0
+
+Pseudo name=disk375
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=6006016054503100B31E2A85F77CE311 [srm-sb_34]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4013000000000000 c135t2d3    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4013000000000000 c133t2d3    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4013000000000000 c131t2d3    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4013000000000000 c129t2d3    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4013000000000000 c134t2d3    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4013000000000000 c130t2d3    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4013000000000000 c136t2d3    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4013000000000000 c132t2d3    SP A0    active   alive      0      0
+
+Pseudo name=disk378
+VNX ID=CKM00122400793 [s-test-1]
+Logical device ID=60060160545031005E4B2D1EF67CE311 [srm-sb_15]
+state=alive; policy=CLAROpt; queued-IOs=0
+Owner: default=SP B, current=SP B	Array failover mode: 4
+==============================================================================
+--------------- Host ---------------   - Stor -  -- I/O Path --   -- Stats ---
+###  HW Path               I/O Paths    Interf.  Mode     State   Q-IOs Errors
+==============================================================================
+   1 0/0/14/1/0.0x5006016947203196.0x4014000000000000 c135t2d4    SP B1    active   alive      0      0
+   1 0/0/14/1/0.0x5006016b47203196.0x4014000000000000 c133t2d4    SP B3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016347203196.0x4014000000000000 c131t2d4    SP A3    active   alive      0      0
+   1 0/0/14/1/0.0x5006016247203196.0x4014000000000000 c129t2d4    SP A2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016a47203196.0x4014000000000000 c134t2d4    SP B2    active   alive      0      0
+   0 0/0/12/1/0.0x5006016847203196.0x4014000000000000 c130t2d4    SP B0    active   alive      0      0
+   0 0/0/12/1/0.0x5006016147203196.0x4014000000000000 c136t2d4    SP A1    active   alive      0      0
+   0 0/0/12/1/0.0x5006016047203196.0x4014000000000000 c132t2d4    SP A0    active   alive      0      0
+

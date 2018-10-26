@@ -1,0 +1,2 @@
+powermt display dev=all > powermt_display
+awk -f powermt_script.awk powermt_display
